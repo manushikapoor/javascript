@@ -1,0 +1,42 @@
+<html>
+<head>
+<script language="javascript">
+function sum()
+{
+var a;
+a=document.frm.txtname1.value;
+var b;
+b=document.frm.txtname2.value;
+if(a>b)
+{ if(a%2==0)
+{
+document.write("a is even");
+}
+else
+{
+document.write("a is odd");
+}
+}
+else
+{
+if(b%2==0)
+{
+document.write("b is even");
+}
+else
+{
+document.write("b is odd");
+}
+}
+}
+</script>
+</head>
+<body>
+<form name="frm">
+<input type="text" name="txtname1">
+<input type="text" name="txtname2">
+<br>
+<input type="button" value="click me" onclick="sum();">
+</form>
+</body>
+</html>

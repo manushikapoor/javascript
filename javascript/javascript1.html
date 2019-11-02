@@ -1,0 +1,21 @@
+<html>
+<head>
+<script language="javascript">
+function chkvalue()
+{
+var a;
+a=document.frm.txtname.value;
+if(a.length==0)
+{
+alert("you can't leave the field empty");
+}
+}</script>
+</head>
+<body>
+<form name="frm">
+<input type="text" name="txtname">
+<br>
+<input type="button" value="click me" onclick="chkvalue();">
+</form>
+</body>
+</html>
